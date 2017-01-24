@@ -42,8 +42,9 @@ h2 {
 }
 
 #products-container {
+	overflow-x: auto;
 	display: flex;
-	justify-content: center;
+	height: 400px;
 }
 
 .product-container {
