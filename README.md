@@ -8,7 +8,6 @@ Before we get started there are a couple of things we need to do. Start by forki
 
 ## Step 1 - The Header
 ![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/2.png "Unfinished Template")
-Need a sharper image? ( Right-click -> Open Image in New Tab )
 #### Summary
 Yuck! What an ugly template! Think about this site from a user's perspective, would you take this website seriously? UI is extremely important, sometimes even more important than the functionality of the website. Today we are going to go over positioning, flexbox, and the box model so that we can achieve the final design. To begin we are going to look at the title section using flexbox and positioning.
 #### Detail
@@ -25,7 +24,6 @@ If we add an attribute of `display: flex;` We will then see all the elements shi
 Let's return to our `main.css` file and checkout what `flex-direction` and `align-items` can do for us. If we add the attribute `flex-direction: column;` to `#container-header` we see our elements stack on top of each other again, however they aren't in the center. We can move them to the center using `align-items: center`. 
 
 ![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/3.png "Center Header")
-Need a sharper image? ( Right-click -> Open Image in New Tab )
 #### Code
 ```css
 #container-header {
@@ -46,7 +44,6 @@ If we take a look in our `index.html` we can see our menu has an ID of `#menu-ic
 Once `position: absolute` is assigned we have the freedom of placing the element where-ever, down to the exact pixel! We can do this using the attributes of `top, right, left, bottom`. Knowing this, how could we get our hamburger menu 30 pixels from the top and right of our page?
 
 ![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/4.png "Position Menu")
-Need a sharper image? ( Right-click -> Open Image in New Tab )
 
 #### Code
 ```css
@@ -66,7 +63,6 @@ Flexbox gives us the freedom to not only center horizontally but also vertically
 Using the `align-items` attribute allows us to get the horizontal center, let's take a look at the `justify-content` attribute to get our vertical center.
 
 ![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/5.png "Justify Content")
-Need a sharper image? ( Right-click -> Open Image in New Tab )
 
 #### Code
 ```css
@@ -98,7 +94,6 @@ Let's take a look in our `index.html`, there are multiple ways to solve this pro
 Once we've added `margin-top: 15px` notice how our header is now extremely close to the border of the browser again. The reason this is happening is because the height of our header container is only 100px and we are running out of space. Our flexbox property `justify-content` is vertically centering all the elements in the container (`#container-header`). Because flexbox is vertically centering based on height, we can set the height of `#container-header` to 130px to achieve the spacing again.
 
 ![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/6.png "Spacing")
-Need a sharper image? ( Right-click -> Open Image in New Tab )
 
 #### Code
 ```css
@@ -122,7 +117,6 @@ Need a sharper image? ( Right-click -> Open Image in New Tab )
 In this step there won't be a detail section. Try to use only flexbox and margins to achieve the following picture. To clarify, we are trying to get the products to be horizontally centered with a 5px margin on the right and left. Hint: When you do not specify a `flex-direction`, `align-items` and `justify-content` are inversed.
 
 ![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/7.png "Challenge")
-Need a sharper image? ( Right-click -> Open Image in New Tab )
 
 #### Solution
 [Click Me For The Solution](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/1.md)
@@ -134,7 +128,6 @@ Our template is almost finished. If we take a look at the information of the pro
 HINT: With our current styles the `.product-container` is in a `flex-direction` of `column`, so it will put each element on top of each other...
 
 ![png](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/1.png "Finished Template")
-Need a sharper image? ( Right-click -> Open Image in New Tab )
 
 #### Solution
 [Click Me For HTML Solution](https://github.com/devlemire/DevMtn-CSS-Store/blob/master/readme/2.md)
